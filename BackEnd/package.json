@@ -1,0 +1,23 @@
+{
+  "name": "emitenanalysis",
+  "version": "1.0.0",
+  "description": "This is a mini application for fundamental analysis of indonesia emiten",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MRFB",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.11.0",
+    "mongodb": "^3.6.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.19.0",
+    "nodemon": "^2.0.7"
+  }
+}
